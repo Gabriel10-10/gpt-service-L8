@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main # Trigger on pushes to the main branch
+      - master # Trigger on pushes to the master branch
 
 jobs:
   # Step 1: Build Job (Unit Test and Build Docker Image)
@@ -17,7 +18,6 @@ jobs:
 
       - name: Install Dependencies
         run: echo "Simulating Install Dependencies... Install Dependencies completed successfully!"
-
 
       #Test individual units or components of the code in isolation, such as functions, or classes.
       - name: Unit Tests
