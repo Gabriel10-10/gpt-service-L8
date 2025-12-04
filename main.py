@@ -34,4 +34,3 @@ async def generate_text(body: GenerateRequest):
         return GenerateResponse(text=text)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
