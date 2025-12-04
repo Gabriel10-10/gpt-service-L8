@@ -18,6 +18,7 @@ jobs:
       - name: Install Dependencies
         run: echo "Simulating Install Dependencies... Install Dependencies completed successfully!"
 
+
       #Test individual units or components of the code in isolation, such as functions, or classes.
       - name: Unit Tests
         run: echo "Simulating unit tests... Test execution completed successfully!"
